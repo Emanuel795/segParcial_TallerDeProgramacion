@@ -2,7 +2,8 @@
     border: 1px solid red;
 } */
 
-
+body{
+    font-family: 'Lato', sans-serif;}
 
 .content{
     display: flex;
@@ -21,15 +22,19 @@
     flex-direction: row;
     background-color: #BDBDBD;  ;
     align-items: center;
+    justify-content: space-around;
    color: white;
+   font-weight: 1000;
+   border-radius: 10px 10px 0 0;
 }
 .elipse
 {
 width: 32px;
 height: 32px;
 border-radius: 50%;
-text-align: center;
-line-height: 19px; 
+display: flex;
+align-items: center;
+justify-content: center;
 border: 1px solid white;
 }
 .agend{
@@ -41,6 +46,7 @@ border: 1px solid white;
     display: flex;
     flex-direction: row;
     align-items: center ;
+    padding: 5px;
 }
 .frame_271
 {
@@ -55,6 +61,8 @@ border: 1px solid white;
     align-items: center;
     margin-left: 50 px;
     justify-content: center;
+    font-weight: 700;
+    padding-left: 75px;
 }
 .frame_267
 {
@@ -64,5 +72,7 @@ border: 1px solid white;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    font-weight: 700;
+
 }
 
